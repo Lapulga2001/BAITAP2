@@ -307,7 +307,7 @@ end
 select * from SANPHAM
 select * from CHITIETDONHANG
 delete from SANPHAM where MSP =SP4
----- Việt Anh 
+-- Tạo trigger để kiểm tra thông tin khách hàng đã từng đặt hàng chưa và áp dụng mã giảm giá cho khách hàng đã từng đặt hàng: Việt Anh 
 CREATE TRIGGER TRG_INSERT_ORDER
 ON DONHANG, KHACHHANG
 FOR INSERT
